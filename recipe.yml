@@ -2,8 +2,12 @@ name: "Paragon base fields"
 description: "This recipe sets up the base fields for the Paragon project, including essential configurations and dependencies required for the core functionality. It builds upon the Paragon Core and integrates with other modules as necessary."
 type: "Fields"
 recipes:
-  - paragon-base-media
+  - core/recipes/document_media_type
+  - core/recipes/image_media_type
+  - drupal_cms_remote_video
+  - drupal_cms_image
 install:
   - paragraphs
+  - block_content
 config:
   strict: false
