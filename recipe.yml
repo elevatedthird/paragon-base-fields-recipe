@@ -1,0 +1,9 @@
+name: "Paragon base fields"
+description: "This recipe sets up the base fields for the Paragon project, including essential configurations and dependencies required for the core functionality. It builds upon the Paragon Core and integrates with other modules as necessary."
+type: "Fields"
+recipes:
+  - paragon-base-media
+install:
+  - paragraphs
+config:
+  strict: false
